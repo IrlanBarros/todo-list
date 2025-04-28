@@ -1,6 +1,5 @@
 <?php
     require_once '../app/views/layouts/header.php';
-
     require_once '../config/connection.php';
 
     $page = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
